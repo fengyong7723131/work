@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-06-09T10:41:03.154Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="zTzCFGcInCf42JXKlRpv" version="13.1.14" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-06-10T07:39:09.333Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="rJK8rDueSCCDc4_4z6O4" version="13.2.1" type="github" pages="3">
   <diagram id="dC7ERs_KsX7YRwyWf4bW" name="第 1 页">
-    <mxGraphModel dx="1746" dy="1268" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1746" dy="1317" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12,9 +12,9 @@
         <mxCell id="A9l2X-kPcxTULMuwRRGQ-14" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-561" y="-466" width="79" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="A9l2X-kPcxTULMuwRRGQ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="A9l2X-kPcxTULMuwRRGQ-16" target="A9l2X-kPcxTULMuwRRGQ-19" edge="1">
+        <mxCell id="L_tjVN0O0y1tqJSVjDKW-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A9l2X-kPcxTULMuwRRGQ-16" target="L_tjVN0O0y1tqJSVjDKW-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-521" y="-349" as="targetPoint" />
+            <mxPoint x="-521" y="-341" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="A9l2X-kPcxTULMuwRRGQ-16" value="异步请求生成电子协议" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
@@ -23,45 +23,37 @@
         <mxCell id="A9l2X-kPcxTULMuwRRGQ-17" value="生成电子协议开始&lt;br&gt;入参：代理商编，产品信息，&lt;br&gt;银行信息，商户全称，法人信息&lt;br&gt;出参：协议url，商编" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="1" vertex="1">
           <mxGeometry x="-403" y="-418.5" width="52" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="7nhvElqyJF3Kpoltb5MO-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="A9l2X-kPcxTULMuwRRGQ-19" target="7nhvElqyJF3Kpoltb5MO-10" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="7nhvElqyJF3Kpoltb5MO-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="A9l2X-kPcxTULMuwRRGQ-19" target="7nhvElqyJF3Kpoltb5MO-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-519.3" y="-279" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="A9l2X-kPcxTULMuwRRGQ-19" value="创建签章策略与签章任务" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="-589.25" y="-339" width="139.25" height="39" as="geometry" />
+          <mxGeometry x="-593.5" y="-256" width="139.25" height="39" as="geometry" />
         </mxCell>
         <mxCell id="7nhvElqyJF3Kpoltb5MO-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="7nhvElqyJF3Kpoltb5MO-7" target="7nhvElqyJF3Kpoltb5MO-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7nhvElqyJF3Kpoltb5MO-7" value="分发任务（自产自销）" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="-595.75" y="-135" width="152.25" height="39" as="geometry" />
+          <mxGeometry x="-600" y="-170" width="152.25" height="39" as="geometry" />
         </mxCell>
         <mxCell id="7nhvElqyJF3Kpoltb5MO-2" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-568.87" y="-70" width="98.5" height="42" as="geometry" />
+          <mxGeometry x="-568.87" y="-107" width="98.5" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="7nhvElqyJF3Kpoltb5MO-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7nhvElqyJF3Kpoltb5MO-10" target="7nhvElqyJF3Kpoltb5MO-7" edge="1">
+        <mxCell id="L_tjVN0O0y1tqJSVjDKW-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="L_tjVN0O0y1tqJSVjDKW-3" target="A9l2X-kPcxTULMuwRRGQ-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7nhvElqyJF3Kpoltb5MO-15" value="成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7nhvElqyJF3Kpoltb5MO-13" vertex="1" connectable="0">
-          <mxGeometry x="-0.2727" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="L_tjVN0O0y1tqJSVjDKW-3" value="请求入网系统签章服务" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="-335" width="117" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="7nhvElqyJF3Kpoltb5MO-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="7nhvElqyJF3Kpoltb5MO-10" target="7nhvElqyJF3Kpoltb5MO-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7nhvElqyJF3Kpoltb5MO-17" value="失败，等待补偿" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7nhvElqyJF3Kpoltb5MO-16" vertex="1" connectable="0">
-          <mxGeometry x="-0.4968" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7nhvElqyJF3Kpoltb5MO-10" value="&lt;span&gt;同步等待获取电子协议响应&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-602.62" y="-279" width="166.62" height="100" as="geometry" />
+        <mxCell id="L_tjVN0O0y1tqJSVjDKW-5" value="入网系统流程" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="-717" y="-261" width="70" height="152" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="HSTl8rCPqUUUAMuSzrUK" name="第 2 页">
-    <mxGraphModel dx="1746" dy="868" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2146" dy="917" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="5hIjUUMDCdC22Jssn7QL-0" />
         <mxCell id="5hIjUUMDCdC22Jssn7QL-1" parent="5hIjUUMDCdC22Jssn7QL-0" />
@@ -122,11 +114,14 @@
         <mxCell id="xArho4_yJg9167rC3D17-9" value="校验是否所有信息均发送到电子签章" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="5hIjUUMDCdC22Jssn7QL-1" vertex="1">
           <mxGeometry x="-636.75" y="19" width="224.75" height="121" as="geometry" />
         </mxCell>
+        <mxCell id="oLNZdMQnflppRLUzRSQl-0" value="入网系统处理" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="5hIjUUMDCdC22Jssn7QL-1">
+          <mxGeometry x="-840" y="-10" width="50" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="urYMugdTOw1wgWeMGJ8X" name="第 3 页">
-    <mxGraphModel dx="946" dy="468" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="517" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="bFEGX2ZAS9HwVzrHLtPh-0" />
         <mxCell id="bFEGX2ZAS9HwVzrHLtPh-1" parent="bFEGX2ZAS9HwVzrHLtPh-0" />
@@ -146,21 +141,11 @@
         <mxCell id="bFEGX2ZAS9HwVzrHLtPh-5" value="接受电子签章任务回调" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="bFEGX2ZAS9HwVzrHLtPh-1" vertex="1">
           <mxGeometry x="314" y="115" width="169" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="bFEGX2ZAS9HwVzrHLtPh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="bFEGX2ZAS9HwVzrHLtPh-1" source="bFEGX2ZAS9HwVzrHLtPh-7" target="bFEGX2ZAS9HwVzrHLtPh-9" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="401" y="310" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bFEGX2ZAS9HwVzrHLtPh-13" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bFEGX2ZAS9HwVzrHLtPh-8" vertex="1" connectable="0">
-          <mxGeometry x="-0.12" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="bFEGX2ZAS9HwVzrHLtPh-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="bFEGX2ZAS9HwVzrHLtPh-1" source="bFEGX2ZAS9HwVzrHLtPh-7" target="bFEGX2ZAS9HwVzrHLtPh-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="523" y="225" />
-              <mxPoint x="523" y="417" />
+              <mxPoint x="523" y="570" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -169,19 +154,47 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="vsISfAW7cuweR3wvBt5o-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="bFEGX2ZAS9HwVzrHLtPh-1" source="bFEGX2ZAS9HwVzrHLtPh-7" target="vsISfAW7cuweR3wvBt5o-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="401" y="291" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vsISfAW7cuweR3wvBt5o-2" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vsISfAW7cuweR3wvBt5o-0">
+          <mxGeometry x="-0.5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="bFEGX2ZAS9HwVzrHLtPh-7" value="是否所有文件都已签署" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="bFEGX2ZAS9HwVzrHLtPh-1" vertex="1">
           <mxGeometry x="298.75" y="184" width="204.25" height="81" as="geometry" />
         </mxCell>
-        <mxCell id="bFEGX2ZAS9HwVzrHLtPh-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="bFEGX2ZAS9HwVzrHLtPh-1" source="bFEGX2ZAS9HwVzrHLtPh-9" edge="1">
+        <mxCell id="vsISfAW7cuweR3wvBt5o-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="bFEGX2ZAS9HwVzrHLtPh-1" source="bFEGX2ZAS9HwVzrHLtPh-9" target="vsISfAW7cuweR3wvBt5o-8">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="399" y="384" as="targetPoint" />
+            <mxPoint x="401" y="448" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bFEGX2ZAS9HwVzrHLtPh-9" value="通知工单 接收任务节点&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="bFEGX2ZAS9HwVzrHLtPh-1" vertex="1">
-          <mxGeometry x="351" y="305" width="96" height="46" as="geometry" />
+        <mxCell id="bFEGX2ZAS9HwVzrHLtPh-9" value="通知业务管理系统" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="bFEGX2ZAS9HwVzrHLtPh-1" vertex="1">
+          <mxGeometry x="352.88" y="375" width="96" height="46" as="geometry" />
         </mxCell>
         <mxCell id="bFEGX2ZAS9HwVzrHLtPh-12" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="bFEGX2ZAS9HwVzrHLtPh-1" vertex="1">
-          <mxGeometry x="351" y="386" width="100" height="60" as="geometry" />
+          <mxGeometry x="350.88" y="540" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vsISfAW7cuweR3wvBt5o-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="bFEGX2ZAS9HwVzrHLtPh-1" source="vsISfAW7cuweR3wvBt5o-1" target="bFEGX2ZAS9HwVzrHLtPh-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vsISfAW7cuweR3wvBt5o-1" value="通知商户" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="bFEGX2ZAS9HwVzrHLtPh-1">
+          <mxGeometry x="343.5" y="297" width="115" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="vsISfAW7cuweR3wvBt5o-6" value="入网系统流程" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="bFEGX2ZAS9HwVzrHLtPh-1">
+          <mxGeometry x="211.75" y="117" width="87" height="308" as="geometry" />
+        </mxCell>
+        <mxCell id="vsISfAW7cuweR3wvBt5o-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="bFEGX2ZAS9HwVzrHLtPh-1" source="vsISfAW7cuweR3wvBt5o-8" target="bFEGX2ZAS9HwVzrHLtPh-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vsISfAW7cuweR3wvBt5o-8" value="业务管理系统激活工单系统" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="bFEGX2ZAS9HwVzrHLtPh-1">
+          <mxGeometry x="351" y="457" width="98" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="vsISfAW7cuweR3wvBt5o-10" value="业务管理系统流程" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="bFEGX2ZAS9HwVzrHLtPh-1">
+          <mxGeometry x="211.75" y="450" width="57" height="59" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
