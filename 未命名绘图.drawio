@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-07T12:03:04.966Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="yjheaHXjQwPQ7J2TJJZv" version="13.6.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-09-07T12:16:26.917Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="OB5gh8igKDwgeKScLe62" version="13.6.6" type="github" pages="5">
   <diagram id="KDY4kzIHtJrH7b0ejOO0" name="申请打款">
     <mxGraphModel dx="1729" dy="1636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,7 +17,7 @@
             <mxPoint x="350" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Qgy92ZVdYqczKS_J3RGW-1" value="生成随机订单号" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="Qgy92ZVdYqczKS_J3RGW-1" value="生成随机订单号orderNo" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="295" y="80" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Qgy92ZVdYqczKS_J3RGW-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qgy92ZVdYqczKS_J3RGW-5" target="D6mROqvqhi3UpX3t7ngW-13">
@@ -43,8 +43,10 @@
         <mxCell id="Qgy92ZVdYqczKS_J3RGW-5" value="&lt;span&gt;入库（状态：新建，effective:TRUE&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: justify ; font-family: &amp;#34;songti sc regular&amp;#34; ; font-size: 11pt&quot;&gt;p&lt;/span&gt;&lt;span style=&quot;text-align: justify ; font-family: &amp;#34;songti sc regular&amp;#34; ; font-size: 11pt&quot;&gt;ayment&lt;/span&gt;&lt;span style=&quot;text-align: justify ; font-family: &amp;#34;songti sc regular&amp;#34; ; font-size: 11pt&quot;&gt;_&lt;/span&gt;&lt;span style=&quot;text-align: justify ; font-family: &amp;#34;songti sc regular&amp;#34; ; font-size: 11pt&quot;&gt;a&lt;/span&gt;&lt;span style=&quot;text-align: justify ; font-family: &amp;#34;songti sc regular&amp;#34; ; font-size: 11pt&quot;&gt;waken:FALSE&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: justify ; font-family: &amp;#34;songti sc regular&amp;#34; ; font-size: 11pt&quot;&gt;confirm&lt;/span&gt;&lt;span style=&quot;text-align: justify ; font-family: &amp;#34;songti sc regular&amp;#34; ; font-size: 11pt&quot;&gt;_a&lt;/span&gt;&lt;span style=&quot;text-align: justify ; font-family: &amp;#34;songti sc regular&amp;#34; ; font-size: 11pt&quot;&gt;waken:FALSE&lt;/span&gt;&lt;span&gt;）&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="260" y="160" width="180" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="Qgy92ZVdYqczKS_J3RGW-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qgy92ZVdYqczKS_J3RGW-12" target="Qgy92ZVdYqczKS_J3RGW-13">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Qgy92ZVdYqczKS_J3RGW-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Qgy92ZVdYqczKS_J3RGW-12" target="D6mROqvqhi3UpX3t7ngW-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="410" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Qgy92ZVdYqczKS_J3RGW-15" value="成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Qgy92ZVdYqczKS_J3RGW-14">
           <mxGeometry x="-0.3176" y="-1" relative="1" as="geometry">
@@ -62,11 +64,15 @@
         <mxCell id="Qgy92ZVdYqczKS_J3RGW-12" value="&lt;span&gt;申请打款&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="270" y="300" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Qgy92ZVdYqczKS_J3RGW-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qgy92ZVdYqczKS_J3RGW-13" target="Qgy92ZVdYqczKS_J3RGW-19">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Qgy92ZVdYqczKS_J3RGW-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="D6mROqvqhi3UpX3t7ngW-16" target="Qgy92ZVdYqczKS_J3RGW-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="470" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="Qgy92ZVdYqczKS_J3RGW-13" value="更新状态：申请成功" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="290" y="410" width="120" height="60" as="geometry" />
+        <mxCell id="D6mROqvqhi3UpX3t7ngW-19" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Qgy92ZVdYqczKS_J3RGW-20">
+          <mxGeometry x="0.32" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="D6mROqvqhi3UpX3t7ngW-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qgy92ZVdYqczKS_J3RGW-16" target="D6mROqvqhi3UpX3t7ngW-13">
           <mxGeometry relative="1" as="geometry" />
@@ -78,7 +84,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qgy92ZVdYqczKS_J3RGW-19" value="返回成功" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="290" y="500" width="120" height="50" as="geometry" />
+          <mxGeometry x="290" y="510" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Qgy92ZVdYqczKS_J3RGW-21" value="结束" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="290" y="580" width="120" height="50" as="geometry" />
@@ -118,7 +124,18 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="D6mROqvqhi3UpX3t7ngW-13" value="返回失败" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="530" y="445" width="120" height="60" as="geometry" />
+          <mxGeometry x="530" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D6mROqvqhi3UpX3t7ngW-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D6mROqvqhi3UpX3t7ngW-16" target="D6mROqvqhi3UpX3t7ngW-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D6mROqvqhi3UpX3t7ngW-18" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="D6mROqvqhi3UpX3t7ngW-17">
+          <mxGeometry x="-0.2211" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D6mROqvqhi3UpX3t7ngW-16" value="&lt;span&gt;更新状态：申请成功&lt;/span&gt;&lt;br&gt;&lt;span&gt;where orderNo&amp;nbsp; and&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;effective=true&lt;br&gt;&lt;/span&gt;是否等于1&lt;br&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="265" y="420" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
