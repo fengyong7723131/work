@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-07T12:26:22.617Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="GiFsP06nKdNYQKjCu7sk" version="13.6.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-09-07T12:40:10.201Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="nSDQQasmJGubY1v4eqaQ" version="13.6.6" type="github" pages="5">
   <diagram id="KDY4kzIHtJrH7b0ejOO0" name="申请打款">
     <mxGraphModel dx="1729" dy="1636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -199,7 +199,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="obKQaAUP0Lh4u4tNg_yj-8" value="判断记录状态是否为申请成功" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="obKQaAUP0Lh4u4tNg_yj-1">
+        <mxCell id="obKQaAUP0Lh4u4tNg_yj-8" value="判断记录状态是否为申请成功并且有效" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="obKQaAUP0Lh4u4tNg_yj-1">
           <mxGeometry x="240" y="210" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="obKQaAUP0Lh4u4tNg_yj-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="obKQaAUP0Lh4u4tNg_yj-1" source="obKQaAUP0Lh4u4tNg_yj-13" target="obKQaAUP0Lh4u4tNg_yj-15">
@@ -227,7 +227,7 @@
         <mxCell id="obKQaAUP0Lh4u4tNg_yj-13" value="&lt;span&gt;更新状态=打款成功&lt;br&gt;更新“&lt;/span&gt;&lt;span style=&quot;text-align: justify ; font-family: &amp;#34;songti sc regular&amp;#34; ; font-size: 11pt&quot;&gt;p&lt;/span&gt;&lt;span style=&quot;text-align: justify ; font-family: &amp;#34;songti sc regular&amp;#34; ; font-size: 11pt&quot;&gt;ayment&lt;/span&gt;&lt;span style=&quot;text-align: justify ; font-family: &amp;#34;songti sc regular&amp;#34; ; font-size: 11pt&quot;&gt;_&lt;/span&gt;&lt;span style=&quot;text-align: justify ; font-family: &amp;#34;songti sc regular&amp;#34; ; font-size: 11pt&quot;&gt;a&lt;/span&gt;&lt;span style=&quot;text-align: justify ; font-family: &amp;#34;songti sc regular&amp;#34; ; font-size: 11pt&quot;&gt;waken&lt;/span&gt;&lt;span&gt;=TRUE where&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: justify ; font-family: &amp;#34;songti sc regular&amp;#34; ; font-size: 11pt&quot;&gt;p&lt;/span&gt;&lt;span style=&quot;text-align: justify ; font-family: &amp;#34;songti sc regular&amp;#34; ; font-size: 11pt&quot;&gt;ayment&lt;/span&gt;&lt;span style=&quot;text-align: justify ; font-family: &amp;#34;songti sc regular&amp;#34; ; font-size: 11pt&quot;&gt;_&lt;/span&gt;&lt;span style=&quot;text-align: justify ; font-family: &amp;#34;songti sc regular&amp;#34; ; font-size: 11pt&quot;&gt;a&lt;/span&gt;&lt;span style=&quot;text-align: justify ; font-family: &amp;#34;songti sc regular&amp;#34; ; font-size: 11pt&quot;&gt;waken&lt;/span&gt;&lt;span style=&quot;text-align: justify ; font-family: &amp;#34;songti sc regular&amp;#34; ; font-size: 11pt&quot;&gt;=FALSE&lt;/span&gt;&lt;span&gt;&quot; 返回更新记录是否为1&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="obKQaAUP0Lh4u4tNg_yj-1">
           <mxGeometry x="207.5" y="440" width="185" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="obKQaAUP0Lh4u4tNg_yj-14" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0pt 0pt 0.0001pt ; text-align: justify ; font-family: &amp;#34;times new roman&amp;#34; ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;songti sc regular&amp;#34; ; font-size: 11pt&quot;&gt;p&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;songti sc regular&amp;#34; ; font-size: 11pt&quot;&gt;ayment&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;songti sc regular&amp;#34; ; font-size: 11pt&quot;&gt;_&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;songti sc regular&amp;#34; ; font-size: 11pt&quot;&gt;a&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;songti sc regular&amp;#34; ; font-size: 11pt&quot;&gt;waken&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;songti sc regular&amp;#34; ; font-size: 11pt&quot;&gt;:是否已唤醒工单&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0pt 0pt 0.0001pt ; text-align: justify ; font-family: &amp;#34;times new roman&amp;#34; ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; text-align: center&quot;&gt;effective:是否有效&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;songti sc regular&amp;#34; ; font-size: 11pt&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="obKQaAUP0Lh4u4tNg_yj-1">
+        <mxCell id="obKQaAUP0Lh4u4tNg_yj-14" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0pt 0pt 0.0001pt ; text-align: justify&quot;&gt;&lt;font face=&quot;songti sc regular&quot;&gt;&lt;span style=&quot;font-size: 14.6667px&quot;&gt;该判断是为了不重复唤醒工单&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="obKQaAUP0Lh4u4tNg_yj-1">
           <mxGeometry x="700" y="310" width="50" height="100" as="geometry" />
         </mxCell>
         <mxCell id="obKQaAUP0Lh4u4tNg_yj-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="obKQaAUP0Lh4u4tNg_yj-1" source="obKQaAUP0Lh4u4tNg_yj-15" target="obKQaAUP0Lh4u4tNg_yj-40">
@@ -346,11 +346,17 @@
         <mxCell id="UaNTtFUpDLp3dyvDSOMW-4" value="结束" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="YS6CBUtoc0XRQrhjpj1i-1">
           <mxGeometry x="260" y="460" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="UaNTtFUpDLp3dyvDSOMW-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="YS6CBUtoc0XRQrhjpj1i-1" source="UaNTtFUpDLp3dyvDSOMW-8" target="UaNTtFUpDLp3dyvDSOMW-4">
+        <mxCell id="P4m4GFsadI6tcRAhysYB-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YS6CBUtoc0XRQrhjpj1i-1" source="UaNTtFUpDLp3dyvDSOMW-8" target="P4m4GFsadI6tcRAhysYB-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UaNTtFUpDLp3dyvDSOMW-8" value="返回失败" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="YS6CBUtoc0XRQrhjpj1i-1">
-          <mxGeometry x="402.5" y="380" width="87" height="40" as="geometry" />
+        <mxCell id="UaNTtFUpDLp3dyvDSOMW-8" value="更新effective =false where requestNo" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="YS6CBUtoc0XRQrhjpj1i-1">
+          <mxGeometry x="402.5" y="320" width="117.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="P4m4GFsadI6tcRAhysYB-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="YS6CBUtoc0XRQrhjpj1i-1" source="P4m4GFsadI6tcRAhysYB-2" target="UaNTtFUpDLp3dyvDSOMW-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P4m4GFsadI6tcRAhysYB-2" value="返回失败" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=14;" vertex="1" parent="YS6CBUtoc0XRQrhjpj1i-1">
+          <mxGeometry x="401.25" y="410" width="118.75" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
