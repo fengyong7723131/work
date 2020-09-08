@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-08T05:03:30.070Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="f5eaIHscwScfKzjUaTg3" version="13.6.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-09-08T05:55:03.368Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="geElPIFxGfrCG-DxH2eP" version="13.6.6" type="github" pages="6">
   <diagram id="KDY4kzIHtJrH7b0ejOO0" name="申请打款">
     <mxGraphModel dx="1729" dy="1636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -46,7 +46,7 @@
             <mxPoint x="345" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Qgy92ZVdYqczKS_J3RGW-15" value="成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Qgy92ZVdYqczKS_J3RGW-14">
+        <mxCell id="Qgy92ZVdYqczKS_J3RGW-15" value="不失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Qgy92ZVdYqczKS_J3RGW-14">
           <mxGeometry x="-0.3176" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -567,20 +567,26 @@
         <mxCell id="L8PLePkXz7IFiTOx9gVF-2" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="L8PLePkXz7IFiTOx9gVF-1">
           <mxGeometry x="314" y="50" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="G17Lg2cKQycZCGp-p-oX-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="L8PLePkXz7IFiTOx9gVF-1" source="L8PLePkXz7IFiTOx9gVF-3" target="G17Lg2cKQycZCGp-p-oX-0">
+        <mxCell id="s29mSiLNtre13q5c2V4r-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="L8PLePkXz7IFiTOx9gVF-1" source="L8PLePkXz7IFiTOx9gVF-3" target="s29mSiLNtre13q5c2V4r-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="L8PLePkXz7IFiTOx9gVF-3" value="定时捞取状态为申请成功并且&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;effective=TRUE的记录&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="L8PLePkXz7IFiTOx9gVF-1">
+        <mxCell id="L8PLePkXz7IFiTOx9gVF-3" value="定时捞取状态为申请成功并且&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;effective=TRUE&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: justify ; font-family: &amp;#34;songti sc regular&amp;#34; ; font-size: 11pt&quot;&gt;p&lt;/span&gt;&lt;span style=&quot;text-align: justify ; font-family: &amp;#34;songti sc regular&amp;#34; ; font-size: 11pt&quot;&gt;ayment&lt;/span&gt;&lt;span style=&quot;text-align: justify ; font-family: &amp;#34;songti sc regular&amp;#34; ; font-size: 11pt&quot;&gt;_&lt;/span&gt;&lt;span style=&quot;text-align: justify ; font-family: &amp;#34;songti sc regular&amp;#34; ; font-size: 11pt&quot;&gt;a&lt;/span&gt;&lt;span style=&quot;text-align: justify ; font-family: &amp;#34;songti sc regular&amp;#34; ; font-size: 11pt&quot;&gt;waken=FALSE&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;&lt;br&gt;的记录&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="L8PLePkXz7IFiTOx9gVF-1">
           <mxGeometry x="304" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="G17Lg2cKQycZCGp-p-oX-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="L8PLePkXz7IFiTOx9gVF-1" source="G17Lg2cKQycZCGp-p-oX-0" target="G17Lg2cKQycZCGp-p-oX-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="G17Lg2cKQycZCGp-p-oX-0" value="调用《接受打款通知》流程" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="L8PLePkXz7IFiTOx9gVF-1">
-          <mxGeometry x="304" y="250" width="120" height="60" as="geometry" />
+          <mxGeometry x="304" y="360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="G17Lg2cKQycZCGp-p-oX-2" value="结束" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="L8PLePkXz7IFiTOx9gVF-1">
-          <mxGeometry x="304" y="360" width="120" height="80" as="geometry" />
+          <mxGeometry x="306" y="460" width="116" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s29mSiLNtre13q5c2V4r-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="L8PLePkXz7IFiTOx9gVF-1" source="s29mSiLNtre13q5c2V4r-1" target="G17Lg2cKQycZCGp-p-oX-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s29mSiLNtre13q5c2V4r-1" value="查询打款状态" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="L8PLePkXz7IFiTOx9gVF-1">
+          <mxGeometry x="304" y="250" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
