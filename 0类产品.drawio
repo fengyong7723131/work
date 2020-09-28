@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-28T06:28:27.766Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="w1CsGF7C1pfnsA88xnpG" version="13.7.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-09-28T06:31:07.451Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="NW24XAIZm7lI3UgniWGu" version="13.7.5" type="github" pages="4">
   <diagram id="dcZRmskp8YOQ7ZgXU7Ep" name="时序图">
     <mxGraphModel dx="1634" dy="516" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -615,7 +615,10 @@
           <mxGeometry x="260" y="560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2sX6nNSbM3r0TTo9ohRo-13" value="客户中心产品开通接口需要放开营销产品必填限制" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="s7sI3vbcMK47Q3nZytxV-1">
-          <mxGeometry x="450" y="290" width="50" height="100" as="geometry" />
+          <mxGeometry x="380" y="305" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2sX6nNSbM3r0TTo9ohRo-16" value="结算系统需要支持推送多个结算产品" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="s7sI3vbcMK47Q3nZytxV-1">
+          <mxGeometry x="377" y="380" width="56" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
