@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-09T08:38:13.737Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="8znxAze5T53AlgcgiAOe" version="13.7.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-10-09T10:44:24.380Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="_9vmPnulgANu51xVUVQz" version="13.7.9" type="github" pages="4">
   <diagram id="dcZRmskp8YOQ7ZgXU7Ep" name="时序图">
-    <mxGraphModel dx="1634" dy="516" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2113" dy="642" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -296,7 +296,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HDPJRzUc70s01ERDeE9x" name="产品合法性校验流程图">
-    <mxGraphModel dx="1634" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2113" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="ogCLVzEwHubr8CHfSmQu-0" />
         <mxCell id="ogCLVzEwHubr8CHfSmQu-1" parent="ogCLVzEwHubr8CHfSmQu-0" />
@@ -480,7 +480,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RhuNVoy5QtBmmnUxn1h7" name="产品开通服务流程图">
-    <mxGraphModel dx="807" dy="1636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1286" dy="1811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="s7sI3vbcMK47Q3nZytxV-0" />
         <mxCell id="s7sI3vbcMK47Q3nZytxV-1" parent="s7sI3vbcMK47Q3nZytxV-0" />
@@ -556,6 +556,9 @@
         </mxCell>
         <mxCell id="1naBLwLD3SvVL6OCKmTx-4" value="推送指导产品" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="s7sI3vbcMK47Q3nZytxV-1">
           <mxGeometry x="60" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W39GT41NFbpI5LhTUYyU-0" value="客户中心产品" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="s7sI3vbcMK47Q3nZytxV-1">
+          <mxGeometry x="380" y="220" width="50" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
