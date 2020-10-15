@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-15T06:31:03.604Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="tWpJVK6BDGZcQw8jbW4N" version="13.7.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-10-15T06:46:00.956Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="7GbJxA9wHdLM_lal91Z-" version="13.7.9" type="github" pages="3">
   <diagram id="VsP0TjxbDdxosoxRiDIv" name="主流程">
     <mxGraphModel dx="807" dy="516" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -148,9 +148,6 @@
         <mxCell id="SAEZo7dMPPtvBQznHzzg-2" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="SAEZo7dMPPtvBQznHzzg-1" vertex="1">
           <mxGeometry x="330" y="30" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SAEZo7dMPPtvBQznHzzg-3" value="定时任务" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" parent="SAEZo7dMPPtvBQznHzzg-1" vertex="1">
-          <mxGeometry x="476" y="32" width="55" height="46" as="geometry" />
-        </mxCell>
         <mxCell id="SAEZo7dMPPtvBQznHzzg-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="SAEZo7dMPPtvBQznHzzg-1" source="SAEZo7dMPPtvBQznHzzg-5" target="SAEZo7dMPPtvBQznHzzg-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="378.5" y="192" as="targetPoint" />
@@ -159,9 +156,9 @@
         <mxCell id="SAEZo7dMPPtvBQznHzzg-5" value="查询本地失败记录" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="SAEZo7dMPPtvBQznHzzg-1" vertex="1">
           <mxGeometry x="328.5" y="126" width="103" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="SAEZo7dMPPtvBQznHzzg-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="SAEZo7dMPPtvBQznHzzg-1" source="SAEZo7dMPPtvBQznHzzg-8" target="SAEZo7dMPPtvBQznHzzg-10" edge="1">
+        <mxCell id="SAEZo7dMPPtvBQznHzzg-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="SAEZo7dMPPtvBQznHzzg-1" source="SAEZo7dMPPtvBQznHzzg-8" target="Gsv9n_2CIvnwIn4_Jh6U-0" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="510" y="242" as="targetPoint" />
+            <mxPoint x="520" y="242" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SAEZo7dMPPtvBQznHzzg-11" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SAEZo7dMPPtvBQznHzzg-9" vertex="1" connectable="0">
@@ -179,25 +176,22 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SAEZo7dMPPtvBQznHzzg-8" value="查询报备接口记录，是否成功状态" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="SAEZo7dMPPtvBQznHzzg-1" vertex="1">
+        <mxCell id="SAEZo7dMPPtvBQznHzzg-8" value="channel_merchant_no是否为空" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="SAEZo7dMPPtvBQznHzzg-1" vertex="1">
           <mxGeometry x="295" y="192" width="170" height="99" as="geometry" />
-        </mxCell>
-        <mxCell id="SAEZo7dMPPtvBQznHzzg-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="SAEZo7dMPPtvBQznHzzg-1" source="SAEZo7dMPPtvBQznHzzg-10" target="SAEZo7dMPPtvBQznHzzg-16" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="SAEZo7dMPPtvBQznHzzg-10" value="更新本地记录状态为成功" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="SAEZo7dMPPtvBQznHzzg-1" vertex="1">
-          <mxGeometry x="520" y="192" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="SAEZo7dMPPtvBQznHzzg-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="SAEZo7dMPPtvBQznHzzg-1" source="SAEZo7dMPPtvBQznHzzg-13" target="SAEZo7dMPPtvBQznHzzg-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="379" y="412" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SAEZo7dMPPtvBQznHzzg-13" value="调用报备新增/修改接口" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="SAEZo7dMPPtvBQznHzzg-1" vertex="1">
+        <mxCell id="SAEZo7dMPPtvBQznHzzg-13" value="执行报备子任务进行聚合报备" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="SAEZo7dMPPtvBQznHzzg-1" vertex="1">
           <mxGeometry x="330" y="320" width="98" height="57" as="geometry" />
         </mxCell>
         <mxCell id="SAEZo7dMPPtvBQznHzzg-16" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="SAEZo7dMPPtvBQznHzzg-1" vertex="1">
-          <mxGeometry x="328" y="412" width="100" height="60" as="geometry" />
+          <mxGeometry x="329" y="406" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gsv9n_2CIvnwIn4_Jh6U-0" value="执行原有逻辑" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="SAEZo7dMPPtvBQznHzzg-1">
+          <mxGeometry x="530" y="221" width="92" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
