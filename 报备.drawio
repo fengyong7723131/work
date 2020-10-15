@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-15T06:46:00.956Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="7GbJxA9wHdLM_lal91Z-" version="13.7.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-10-15T06:46:10.297Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="XZBDFWV1CvddywhDzyhh" version="13.7.9" type="github" pages="3">
   <diagram id="VsP0TjxbDdxosoxRiDIv" name="主流程">
     <mxGraphModel dx="807" dy="516" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -86,52 +86,6 @@
       <root>
         <mxCell id="UGu4NYYpyM2OCp5MHmZj-0" />
         <mxCell id="UGu4NYYpyM2OCp5MHmZj-1" parent="UGu4NYYpyM2OCp5MHmZj-0" />
-        <mxCell id="kuf9T7Gr4KqVFJNRyqWz-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="UGu4NYYpyM2OCp5MHmZj-1" source="BhZa5ttN8Q9N9yM1D1aI-0" target="kuf9T7Gr4KqVFJNRyqWz-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="356.375" y="101" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="BhZa5ttN8Q9N9yM1D1aI-0" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="UGu4NYYpyM2OCp5MHmZj-1" vertex="1">
-          <mxGeometry x="310" y="41" width="95" height="32" as="geometry" />
-        </mxCell>
-        <mxCell id="BhZa5ttN8Q9N9yM1D1aI-1" value="接受队列消息" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" parent="UGu4NYYpyM2OCp5MHmZj-1" vertex="1">
-          <mxGeometry x="449" y="31" width="54" height="53" as="geometry" />
-        </mxCell>
-        <mxCell id="vfAL0i21qyMoTU16Agz6-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="UGu4NYYpyM2OCp5MHmZj-1" source="vfAL0i21qyMoTU16Agz6-1" target="vfAL0i21qyMoTU16Agz6-3" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="358" y="172" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vfAL0i21qyMoTU16Agz6-1" value="根据通知装填更新本地记录" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="UGu4NYYpyM2OCp5MHmZj-1" vertex="1">
-          <mxGeometry x="306.5" y="207" width="98.5" height="46" as="geometry" />
-        </mxCell>
-        <mxCell id="vfAL0i21qyMoTU16Agz6-3" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="UGu4NYYpyM2OCp5MHmZj-1" vertex="1">
-          <mxGeometry x="317.13" y="288" width="77.25" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="kuf9T7Gr4KqVFJNRyqWz-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="UGu4NYYpyM2OCp5MHmZj-1" source="kuf9T7Gr4KqVFJNRyqWz-2" target="kuf9T7Gr4KqVFJNRyqWz-4" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="467" y="131" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kuf9T7Gr4KqVFJNRyqWz-5" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kuf9T7Gr4KqVFJNRyqWz-3" vertex="1" connectable="0">
-          <mxGeometry x="-0.3119" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kuf9T7Gr4KqVFJNRyqWz-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="UGu4NYYpyM2OCp5MHmZj-1" source="kuf9T7Gr4KqVFJNRyqWz-2" target="vfAL0i21qyMoTU16Agz6-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="kuf9T7Gr4KqVFJNRyqWz-7" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kuf9T7Gr4KqVFJNRyqWz-6" vertex="1" connectable="0">
-          <mxGeometry x="-0.2548" y="-4" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kuf9T7Gr4KqVFJNRyqWz-2" value="&lt;span&gt;本地记录是否成功&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="UGu4NYYpyM2OCp5MHmZj-1" vertex="1">
-          <mxGeometry x="289.38" y="95" width="136.25" height="72" as="geometry" />
-        </mxCell>
-        <mxCell id="kuf9T7Gr4KqVFJNRyqWz-4" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="UGu4NYYpyM2OCp5MHmZj-1" vertex="1">
-          <mxGeometry x="464" y="106" width="73" height="50" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
