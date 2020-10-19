@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-19T02:59:22.592Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="lmwrQUm-Chmk4oslH4Zs" version="13.8.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-10-19T02:59:41.210Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="VGn0Ae53V73g_Mrn9gPD" version="13.8.0" type="github" pages="3">
   <diagram id="VsP0TjxbDdxosoxRiDIv" name="主流程">
     <mxGraphModel dx="807" dy="516" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -141,7 +141,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SAEZo7dMPPtvBQznHzzg-5" value="查询本地失败记录" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="SAEZo7dMPPtvBQznHzzg-1" vertex="1">
-          <mxGeometry x="328.5" y="126" width="103" height="41" as="geometry" />
+          <mxGeometry x="321.25" y="113" width="115.5" height="61" as="geometry" />
         </mxCell>
         <mxCell id="SAEZo7dMPPtvBQznHzzg-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="SAEZo7dMPPtvBQznHzzg-1" source="SAEZo7dMPPtvBQznHzzg-8" target="SAEZo7dMPPtvBQznHzzg-13" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -160,7 +160,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SAEZo7dMPPtvBQznHzzg-13" value="执行报备子任务进行聚合报备" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="SAEZo7dMPPtvBQznHzzg-1" vertex="1">
-          <mxGeometry x="330" y="320" width="98" height="57" as="geometry" />
+          <mxGeometry x="319" y="320" width="122" height="62" as="geometry" />
         </mxCell>
         <mxCell id="SAEZo7dMPPtvBQznHzzg-16" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="SAEZo7dMPPtvBQznHzzg-1" vertex="1">
           <mxGeometry x="329" y="515" width="100" height="60" as="geometry" />
