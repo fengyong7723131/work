@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-26T07:08:52.049Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="7TooUTy8kSmM-3T5E6zR" version="13.8.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-10-26T07:09:36.796Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="PsEMM3CYNvQS5wS8d9qI" version="13.8.2" type="github" pages="4">
   <diagram id="dC7ERs_KsX7YRwyWf4bW" name="第 1 页">
     <mxGraphModel dx="1607" dy="1316" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -57,7 +57,7 @@
           <mxGeometry x="-583.88" y="-606" width="120" height="46" as="geometry" />
         </mxCell>
         <mxCell id="N24s0KkjB6KvL7zULQtI-3" value="新增字段：商户主协议类型、商户产品协议类型、&lt;br&gt;商户主协议非标协议地址、商户产品协议非标协议地址。" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="-453.75" y="-633" width="50" height="100" as="geometry" />
+          <mxGeometry x="-457" y="-611" width="57.75" height="56" as="geometry" />
         </mxCell>
         <mxCell id="N24s0KkjB6KvL7zULQtI-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="N24s0KkjB6KvL7zULQtI-7" target="A9l2X-kPcxTULMuwRRGQ-16">
           <mxGeometry relative="1" as="geometry" />
@@ -91,6 +91,9 @@
         </mxCell>
         <mxCell id="bTAx-vswk47IbSWi_Qh7-1" value="pdf文件类型也需要重新生成待签文件，统一名称" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="-431" y="-361" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="o8VE3fKB-X2RX6FLNpNn-1" value="新接口" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="-477" y="-692" width="55" height="48" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -273,6 +276,9 @@
         </mxCell>
         <mxCell id="JfiCN1zu837a3bmqX-Kw-2" value="结束" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="x7Q1K-Qua_We4emeSfi--1">
           <mxGeometry x="310" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JfiCN1zu837a3bmqX-Kw-4" value="新接口" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="x7Q1K-Qua_We4emeSfi--1">
+          <mxGeometry x="500" y="30" width="50" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
