@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-26T07:24:28.745Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="w1w5IV2vuZbN-44gp5Ub" version="13.8.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-10-26T07:26:36.761Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="n6tmtd2YoGWZRazwt4r9" version="13.8.2" type="github" pages="4">
   <diagram id="dC7ERs_KsX7YRwyWf4bW" name="第 1 页">
     <mxGraphModel dx="1607" dy="1316" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -89,8 +89,8 @@
         <mxCell id="G9lqbyqdPklpJcWqyjPO-1" value="&lt;span&gt;请求入网系统签章服务&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=14;" vertex="1" parent="1">
           <mxGeometry x="-589.25" y="-85" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bTAx-vswk47IbSWi_Qh7-1" value="pdf文件类型也需要重新生成待签文件，统一名称" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="-439" y="-329.5" width="59" height="46" as="geometry" />
+        <mxCell id="bTAx-vswk47IbSWi_Qh7-1" value="pdf文件类型也需要重新生成待签文件&lt;br&gt;，便于签章成功后映射到工单对应的字段" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="-445" y="-324" width="59" height="46" as="geometry" />
         </mxCell>
         <mxCell id="o8VE3fKB-X2RX6FLNpNn-1" value="新接口" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="-477" y="-692" width="55" height="48" as="geometry" />
