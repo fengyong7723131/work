@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-26T06:47:54.033Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="V_NxnxHXDU2ANyL3DJQy" version="13.8.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-10-26T07:08:18.689Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="2-gMcGw-YgqOjSjxQYag" version="13.8.2" type="github" pages="4">
   <diagram id="dC7ERs_KsX7YRwyWf4bW" name="第 1 页">
     <mxGraphModel dx="1607" dy="1316" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -45,7 +45,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="L_tjVN0O0y1tqJSVjDKW-3" value="判断文件类型并处理文件（excel转pdf）" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="-580" y="-335" width="117" height="36" as="geometry" />
+          <mxGeometry x="-596" y="-333" width="149" height="53" as="geometry" />
         </mxCell>
         <mxCell id="L_tjVN0O0y1tqJSVjDKW-5" value="入网系统流程" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" parent="1" vertex="1">
           <mxGeometry x="-715" y="-74" width="70" height="152" as="geometry" />
@@ -71,7 +71,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-640" y="-484" />
-              <mxPoint x="-640" y="-317" />
+              <mxPoint x="-640" y="-306" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -88,6 +88,9 @@
         </mxCell>
         <mxCell id="G9lqbyqdPklpJcWqyjPO-1" value="&lt;span&gt;请求入网系统签章服务&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=14;" vertex="1" parent="1">
           <mxGeometry x="-581.87" y="-211" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bTAx-vswk47IbSWi_Qh7-1" value="pdf文件类型也需要重新生成待签文件，统一名称" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="-431" y="-361" width="50" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -235,6 +238,41 @@
         </mxCell>
         <mxCell id="vsISfAW7cuweR3wvBt5o-10" value="业务管理系统流程" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" parent="bFEGX2ZAS9HwVzrHLtPh-1" vertex="1">
           <mxGeometry x="211.75" y="450" width="57" height="59" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="DFvq430_VK5fGlHuHcsA" name="第 4 页">
+    <mxGraphModel dx="807" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="x7Q1K-Qua_We4emeSfi--0" />
+        <mxCell id="x7Q1K-Qua_We4emeSfi--1" parent="x7Q1K-Qua_We4emeSfi--0" />
+        <mxCell id="scxnTMkl6nBXfbAguXaJ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x7Q1K-Qua_We4emeSfi--1" source="scxnTMkl6nBXfbAguXaJ-0" target="scxnTMkl6nBXfbAguXaJ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="scxnTMkl6nBXfbAguXaJ-0" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="x7Q1K-Qua_We4emeSfi--1">
+          <mxGeometry x="320" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="scxnTMkl6nBXfbAguXaJ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x7Q1K-Qua_We4emeSfi--1" source="scxnTMkl6nBXfbAguXaJ-1" target="scxnTMkl6nBXfbAguXaJ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="scxnTMkl6nBXfbAguXaJ-1" value="接收入网电子签章成功后的回调" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="x7Q1K-Qua_We4emeSfi--1">
+          <mxGeometry x="310" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JfiCN1zu837a3bmqX-Kw-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x7Q1K-Qua_We4emeSfi--1" source="scxnTMkl6nBXfbAguXaJ-3" target="JfiCN1zu837a3bmqX-Kw-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="scxnTMkl6nBXfbAguXaJ-3" value="处理已签章url，组装参数" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="x7Q1K-Qua_We4emeSfi--1">
+          <mxGeometry x="310" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JfiCN1zu837a3bmqX-Kw-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x7Q1K-Qua_We4emeSfi--1" source="JfiCN1zu837a3bmqX-Kw-0" target="JfiCN1zu837a3bmqX-Kw-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JfiCN1zu837a3bmqX-Kw-0" value="唤醒工单" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="x7Q1K-Qua_We4emeSfi--1">
+          <mxGeometry x="310" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JfiCN1zu837a3bmqX-Kw-2" value="结束" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="x7Q1K-Qua_We4emeSfi--1">
+          <mxGeometry x="310" y="400" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
