@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-02T12:36:26.061Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="oByXMNSSQtFxQ213J9zV" version="13.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-02T12:40:06.795Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="1VOflWECBAt3z0aRXDEi" version="13.8.8" type="github">
   <diagram id="XCPZMHj8SuXuo62oUey4" name="第 1 页">
     <mxGraphModel dx="807" dy="1685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -21,11 +21,8 @@
         <mxCell id="39Lvq84c3H4vdwFl3TJd-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="39Lvq84c3H4vdwFl3TJd-4" target="39Lvq84c3H4vdwFl3TJd-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="39Lvq84c3H4vdwFl3TJd-4" value="创建商编" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="39Lvq84c3H4vdwFl3TJd-4" value="注册商户" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="290" y="240" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="39Lvq84c3H4vdwFl3TJd-6" value="沿用客户中心商编生成器，前缀100，后续序列号递增" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="245" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="39Lvq84c3H4vdwFl3TJd-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="39Lvq84c3H4vdwFl3TJd-7" target="39Lvq84c3H4vdwFl3TJd-9">
           <mxGeometry relative="1" as="geometry" />
@@ -84,6 +81,9 @@
         </mxCell>
         <mxCell id="39Lvq84c3H4vdwFl3TJd-25" value="申请状态是否为“申请已驳回”" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="60" y="15" width="140" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="39Lvq84c3H4vdwFl3TJd-30" value="此处若发生并发，无法防住" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="220" width="50" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
