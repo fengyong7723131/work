@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-03T03:22:38.066Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="m6Da3E-CmO04zlD7NRWP" version="13.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-03T03:22:52.145Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="CdmnAGHpo1xv6Czd-Ad5" version="13.8.8" type="github">
   <diagram id="XCPZMHj8SuXuo62oUey4" name="亿企通迁移">
     <mxGraphModel dx="1634" dy="1685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -131,7 +131,7 @@
         <mxCell id="39Lvq84c3H4vdwFl3TJd-50" value="结束&lt;br&gt;主体信息不允许修改" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="70" y="120" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="39Lvq84c3H4vdwFl3TJd-55" value="例如认证失败后，接口提单通知完商户后就终止流程了&lt;br&gt;重复申请后，工单流程如何继续流转？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+        <mxCell id="39Lvq84c3H4vdwFl3TJd-55" value="例如认证失败后，接口提单通知完商户后就终止流程了&lt;br&gt;再次申请后，工单流程如何继续流转？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="530" width="50" height="100" as="geometry" />
         </mxCell>
       </root>
