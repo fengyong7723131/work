@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-05T03:11:33.007Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="xSn0vFeTNl1dw040AKHJ" version="13.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-05T07:16:42.322Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="e9gansz_sjSKffQJtCqe" version="13.8.8" type="github">
   <diagram id="XCPZMHj8SuXuo62oUey4" name="亿企通迁移">
     <mxGraphModel dx="1634" dy="1685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -139,7 +139,7 @@
         <mxCell id="39Lvq84c3H4vdwFl3TJd-50" value="结束&lt;br&gt;主体信息不允许修改" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-110" y="280" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="39Lvq84c3H4vdwFl3TJd-55" value="重复申请暂定方案为唤醒等待节点重新执行流程" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+        <mxCell id="39Lvq84c3H4vdwFl3TJd-55" value="重复申请暂定方案为唤醒等待节点重新执行流程（tbl_merchant_netin_main需要新增main_id）。" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="610" width="40" height="60" as="geometry" />
         </mxCell>
         <mxCell id="39Lvq84c3H4vdwFl3TJd-61" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=west;" vertex="1" parent="1">
