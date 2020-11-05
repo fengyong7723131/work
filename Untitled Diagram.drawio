@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-03T09:25:46.510Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="8tgAoGsk6Y1hbr1XpkzJ" version="13.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-05T02:36:13.531Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="PcrzByxHGmid_8fvH4ni" version="13.8.8" type="github">
   <diagram id="XCPZMHj8SuXuo62oUey4" name="亿企通迁移">
     <mxGraphModel dx="1634" dy="1685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -58,7 +58,7 @@
           <mxGeometry x="280" y="10" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="39Lvq84c3H4vdwFl3TJd-24" value="对于同一个工单号的申请，&lt;br&gt;需要工单服务支持幂等修改" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="-270" width="70" height="70" as="geometry" />
+          <mxGeometry x="440" y="-265" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="39Lvq84c3H4vdwFl3TJd-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="39Lvq84c3H4vdwFl3TJd-25" target="39Lvq84c3H4vdwFl3TJd-48">
           <mxGeometry relative="1" as="geometry">
@@ -106,7 +106,7 @@
         <mxCell id="39Lvq84c3H4vdwFl3TJd-42" value="结束&lt;br&gt;入网状态不匹配" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-110" y="17.5" width="110" height="62.5" as="geometry" />
         </mxCell>
-        <mxCell id="39Lvq84c3H4vdwFl3TJd-44" value="注册商户接口本身支持同一请求号修改。也支持主体信息（签约名等）" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+        <mxCell id="39Lvq84c3H4vdwFl3TJd-44" value="注册商户接口本身支持同一请求号修改。也支持主体信息（签约名等）&lt;br&gt;注册商户接口放到这里可能会产生垃圾数据" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="365" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="39Lvq84c3H4vdwFl3TJd-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="39Lvq84c3H4vdwFl3TJd-48" target="39Lvq84c3H4vdwFl3TJd-50">
