@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-09T02:39:07.940Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="VWzR1GjBPaki0TKAG8sd" version="13.9.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-11-09T08:52:31.247Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="wLbxlK8p-RoCOjn_WkAY" version="13.9.2" type="github" pages="3">
   <diagram id="XCPZMHj8SuXuo62oUey4" name="亿企通迁移">
-    <mxGraphModel dx="1207" dy="916" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1207" dy="859" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -158,7 +158,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="I3UNpb6511cRMX3bcRP-" name="费率修改">
-    <mxGraphModel dx="807" dy="1685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="807" dy="1628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="5Yg0GIVIvhinB8ymmKMG-0" />
         <mxCell id="5Yg0GIVIvhinB8ymmKMG-1" parent="5Yg0GIVIvhinB8ymmKMG-0" />
@@ -230,18 +230,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hzIczbaL_Os74N-i3bd3" name="协议签署">
-    <mxGraphModel dx="807" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="807" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="tlKAWO5WwqJcNPRu2NZc-0" />
         <mxCell id="tlKAWO5WwqJcNPRu2NZc-1" parent="tlKAWO5WwqJcNPRu2NZc-0" />
-        <mxCell id="7RPujntMeBF8bzeaQfaz-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tlKAWO5WwqJcNPRu2NZc-1" source="7RPujntMeBF8bzeaQfaz-0" target="7RPujntMeBF8bzeaQfaz-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="7RPujntMeBF8bzeaQfaz-0" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="tlKAWO5WwqJcNPRu2NZc-1">
           <mxGeometry x="300" y="50" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="7RPujntMeBF8bzeaQfaz-1" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="tlKAWO5WwqJcNPRu2NZc-1">
-          <mxGeometry x="300" y="220" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
