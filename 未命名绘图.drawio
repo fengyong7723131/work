@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-04T03:04:16.450Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="hOlYVw3UF5wzoarXlLO9" version="13.10.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-12-04T03:36:32.271Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="pWNFXaaYtmpVEoHuMJpa" version="13.10.8" type="github" pages="2">
   <diagram name="入网进度查询" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="807" dy="1366" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -149,133 +149,11 @@
       <root>
         <mxCell id="6D580EjlVo4oe9tn3Bij-0" />
         <mxCell id="6D580EjlVo4oe9tn3Bij-1" parent="6D580EjlVo4oe9tn3Bij-0" />
-        <mxCell id="mIzii8sMmFUAInziXg6Z-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6D580EjlVo4oe9tn3Bij-1" source="mIzii8sMmFUAInziXg6Z-0" target="mIzii8sMmFUAInziXg6Z-1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="YNEcawaOifFSc9qhL8P--0" value="表单新增协议模块：&lt;br&gt;企业/个体入网单&lt;br&gt;saas入网单" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="6D580EjlVo4oe9tn3Bij-1">
+          <mxGeometry x="170" y="60" width="50" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="mIzii8sMmFUAInziXg6Z-0" value="web" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6D580EjlVo4oe9tn3Bij-1">
-          <mxGeometry x="170" y="70" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mIzii8sMmFUAInziXg6Z-1" value="web" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6D580EjlVo4oe9tn3Bij-1">
-          <mxGeometry x="170" y="390" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mIzii8sMmFUAInziXg6Z-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6D580EjlVo4oe9tn3Bij-1" source="mIzii8sMmFUAInziXg6Z-3" target="mIzii8sMmFUAInziXg6Z-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="mIzii8sMmFUAInziXg6Z-3" value="redis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6D580EjlVo4oe9tn3Bij-1">
-          <mxGeometry x="400" y="70" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mIzii8sMmFUAInziXg6Z-4" value="redis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6D580EjlVo4oe9tn3Bij-1">
-          <mxGeometry x="400" y="390" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mIzii8sMmFUAInziXg6Z-6" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="6D580EjlVo4oe9tn3Bij-1">
-          <mxGeometry x="50" y="130" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mIzii8sMmFUAInziXg6Z-7" value="" style="endArrow=classic;html=1;" edge="1" parent="6D580EjlVo4oe9tn3Bij-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="120" y="170" as="sourcePoint" />
-            <mxPoint x="230" y="170" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mIzii8sMmFUAInziXg6Z-8" value="一号登录" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mIzii8sMmFUAInziXg6Z-7">
-          <mxGeometry x="-0.1455" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mIzii8sMmFUAInziXg6Z-9" value="" style="endArrow=classic;html=1;" edge="1" parent="6D580EjlVo4oe9tn3Bij-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="230" y="190" as="sourcePoint" />
-            <mxPoint x="460" y="190" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mIzii8sMmFUAInziXg6Z-10" value="首次进入时" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mIzii8sMmFUAInziXg6Z-9">
-          <mxGeometry x="0.087" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mIzii8sMmFUAInziXg6Z-13" value="" style="curved=1;endArrow=classic;html=1;" edge="1" parent="6D580EjlVo4oe9tn3Bij-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="460" y="250" as="sourcePoint" />
-            <mxPoint x="460" y="270" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="500" y="250" />
-              <mxPoint x="520" y="270" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mIzii8sMmFUAInziXg6Z-15" value="&lt;span style=&quot;font-size: 11px ; text-align: center ; background-color: rgb(255 , 255 , 255)&quot;&gt;将2号元集合信息全部挪到待删除集合中，&lt;br&gt;并返回2号待删除集合信息&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="6D580EjlVo4oe9tn3Bij-1">
-          <mxGeometry x="510" y="180" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="mIzii8sMmFUAInziXg6Z-16" value="" style="endArrow=classic;html=1;" edge="1" parent="6D580EjlVo4oe9tn3Bij-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="230" y="250" as="sourcePoint" />
-            <mxPoint x="460" y="250" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mIzii8sMmFUAInziXg6Z-17" value="循环每秒请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mIzii8sMmFUAInziXg6Z-16">
-          <mxGeometry x="-0.0435" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mIzii8sMmFUAInziXg6Z-18" value="" style="curved=1;endArrow=classic;html=1;" edge="1" parent="6D580EjlVo4oe9tn3Bij-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="460" y="190" as="sourcePoint" />
-            <mxPoint x="460" y="210" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="480" y="190" />
-              <mxPoint x="500" y="190" />
-              <mxPoint x="520" y="210" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mIzii8sMmFUAInziXg6Z-19" value="remove2号元集合信息一条数据放入2号待删除集合&lt;br&gt;并返回这条信息（如果没有，则返回空）" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="6D580EjlVo4oe9tn3Bij-1">
-          <mxGeometry x="510" y="250" width="50" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="mIzii8sMmFUAInziXg6Z-20" value="" style="endArrow=classic;html=1;" edge="1" parent="6D580EjlVo4oe9tn3Bij-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="460" y="210" as="sourcePoint" />
-            <mxPoint x="230" y="210" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mIzii8sMmFUAInziXg6Z-21" value="返回之前所有信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mIzii8sMmFUAInziXg6Z-20">
-          <mxGeometry x="-0.1217" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mIzii8sMmFUAInziXg6Z-22" value="" style="endArrow=classic;html=1;" edge="1" parent="6D580EjlVo4oe9tn3Bij-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="460" y="270" as="sourcePoint" />
-            <mxPoint x="230" y="270" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mIzii8sMmFUAInziXg6Z-23" value="返回单条信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mIzii8sMmFUAInziXg6Z-22">
-          <mxGeometry x="-0.1217" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mIzii8sMmFUAInziXg6Z-33" value="" style="endArrow=classic;html=1;" edge="1" parent="6D580EjlVo4oe9tn3Bij-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="230" y="340" as="sourcePoint" />
-            <mxPoint x="460" y="340" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mIzii8sMmFUAInziXg6Z-34" value="发送信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mIzii8sMmFUAInziXg6Z-33">
-          <mxGeometry x="-0.0174" y="-3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mIzii8sMmFUAInziXg6Z-35" value="" style="curved=1;endArrow=classic;html=1;" edge="1" parent="6D580EjlVo4oe9tn3Bij-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="460" y="340" as="sourcePoint" />
-            <mxPoint x="460" y="360" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="480" y="340" />
-              <mxPoint x="500" y="340" />
-              <mxPoint x="520" y="360" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mIzii8sMmFUAInziXg6Z-36" value="新增一条信息到1号原集合里" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="6D580EjlVo4oe9tn3Bij-1">
-          <mxGeometry x="510" y="340" width="50" height="30" as="geometry" />
+        <mxCell id="YNEcawaOifFSc9qhL8P--2" value="切换流程对应服务：&lt;br&gt;企业/个体流程模型&lt;br&gt;saas流程模型" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="6D580EjlVo4oe9tn3Bij-1">
+          <mxGeometry x="364" y="60" width="50" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
