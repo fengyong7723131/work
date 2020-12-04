@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-04T03:36:32.271Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="pWNFXaaYtmpVEoHuMJpa" version="13.10.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-12-04T06:20:46.907Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="lL00yQ9DagtZdjYIizHk" version="13.10.8" type="github" pages="2">
   <diagram name="入网进度查询" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="807" dy="1366" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -149,11 +149,89 @@
       <root>
         <mxCell id="6D580EjlVo4oe9tn3Bij-0" />
         <mxCell id="6D580EjlVo4oe9tn3Bij-1" parent="6D580EjlVo4oe9tn3Bij-0" />
+        <mxCell id="YNEcawaOifFSc9qhL8P--29" value="" style="rounded=1;arcSize=10;dashed=1;strokeColor=#000000;fillColor=none;gradientColor=none;dashPattern=8 3 1 3;strokeWidth=2;" vertex="1" parent="6D580EjlVo4oe9tn3Bij-1">
+          <mxGeometry x="402.5" y="720" width="185" height="90" as="geometry" />
+        </mxCell>
         <mxCell id="YNEcawaOifFSc9qhL8P--0" value="表单新增协议模块：&lt;br&gt;企业/个体入网单&lt;br&gt;saas入网单" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="6D580EjlVo4oe9tn3Bij-1">
           <mxGeometry x="170" y="60" width="50" height="100" as="geometry" />
         </mxCell>
         <mxCell id="YNEcawaOifFSc9qhL8P--2" value="切换流程对应服务：&lt;br&gt;企业/个体流程模型&lt;br&gt;saas流程模型" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="6D580EjlVo4oe9tn3Bij-1">
           <mxGeometry x="364" y="60" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YNEcawaOifFSc9qhL8P--3" value="表单改动" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="6D580EjlVo4oe9tn3Bij-1">
+          <mxGeometry x="165" y="20" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YNEcawaOifFSc9qhL8P--4" value="流程模型改动" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="6D580EjlVo4oe9tn3Bij-1">
+          <mxGeometry x="360" y="20" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YNEcawaOifFSc9qhL8P--6" value="签章流程" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" vertex="1" parent="6D580EjlVo4oe9tn3Bij-1">
+          <mxGeometry x="165" y="250" width="640" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="YNEcawaOifFSc9qhL8P--7" value="流程魔方" style="swimlane;html=1;startSize=20;" vertex="1" parent="YNEcawaOifFSc9qhL8P--6">
+          <mxGeometry y="20" width="220" height="810" as="geometry" />
+        </mxCell>
+        <mxCell id="YNEcawaOifFSc9qhL8P--10" value="提交" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="YNEcawaOifFSc9qhL8P--7">
+          <mxGeometry x="60" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YNEcawaOifFSc9qhL8P--8" value="业务管理系统" style="swimlane;html=1;startSize=20;" vertex="1" parent="YNEcawaOifFSc9qhL8P--6">
+          <mxGeometry x="220" y="20" width="220" height="810" as="geometry" />
+        </mxCell>
+        <mxCell id="YNEcawaOifFSc9qhL8P--11" value="生成协议" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="YNEcawaOifFSc9qhL8P--8">
+          <mxGeometry x="50" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YNEcawaOifFSc9qhL8P--9" value="入网子系统" style="swimlane;html=1;startSize=20;" vertex="1" parent="YNEcawaOifFSc9qhL8P--6">
+          <mxGeometry x="440" y="20" width="200" height="810" as="geometry" />
+        </mxCell>
+        <mxCell id="YNEcawaOifFSc9qhL8P--12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YNEcawaOifFSc9qhL8P--6" source="YNEcawaOifFSc9qhL8P--10" target="YNEcawaOifFSc9qhL8P--11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YNEcawaOifFSc9qhL8P--16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6D580EjlVo4oe9tn3Bij-1" source="YNEcawaOifFSc9qhL8P--13" target="YNEcawaOifFSc9qhL8P--15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YNEcawaOifFSc9qhL8P--13" value="发起电子签章" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="6D580EjlVo4oe9tn3Bij-1">
+          <mxGeometry x="435" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YNEcawaOifFSc9qhL8P--14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6D580EjlVo4oe9tn3Bij-1" source="YNEcawaOifFSc9qhL8P--11" target="YNEcawaOifFSc9qhL8P--13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YNEcawaOifFSc9qhL8P--18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6D580EjlVo4oe9tn3Bij-1" source="YNEcawaOifFSc9qhL8P--15" target="YNEcawaOifFSc9qhL8P--17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YNEcawaOifFSc9qhL8P--15" value="签章操作" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="6D580EjlVo4oe9tn3Bij-1">
+          <mxGeometry x="635" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YNEcawaOifFSc9qhL8P--20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6D580EjlVo4oe9tn3Bij-1" source="YNEcawaOifFSc9qhL8P--17" target="YNEcawaOifFSc9qhL8P--19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YNEcawaOifFSc9qhL8P--17" value="签章完成并回调" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="6D580EjlVo4oe9tn3Bij-1">
+          <mxGeometry x="635" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YNEcawaOifFSc9qhL8P--22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6D580EjlVo4oe9tn3Bij-1" source="YNEcawaOifFSc9qhL8P--19" target="YNEcawaOifFSc9qhL8P--21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YNEcawaOifFSc9qhL8P--19" value="接受签章回调" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="6D580EjlVo4oe9tn3Bij-1">
+          <mxGeometry x="435" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YNEcawaOifFSc9qhL8P--24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6D580EjlVo4oe9tn3Bij-1" source="YNEcawaOifFSc9qhL8P--21" target="YNEcawaOifFSc9qhL8P--23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YNEcawaOifFSc9qhL8P--21" value="组装已签章协议信息。添加授权协议与出款说明" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="6D580EjlVo4oe9tn3Bij-1">
+          <mxGeometry x="435" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YNEcawaOifFSc9qhL8P--26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6D580EjlVo4oe9tn3Bij-1" source="YNEcawaOifFSc9qhL8P--23" target="YNEcawaOifFSc9qhL8P--25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YNEcawaOifFSc9qhL8P--23" value="唤醒工单" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="6D580EjlVo4oe9tn3Bij-1">
+          <mxGeometry x="435" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YNEcawaOifFSc9qhL8P--28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6D580EjlVo4oe9tn3Bij-1" source="YNEcawaOifFSc9qhL8P--25" target="YNEcawaOifFSc9qhL8P--27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YNEcawaOifFSc9qhL8P--25" value="映射已签章协议到工单" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="6D580EjlVo4oe9tn3Bij-1">
+          <mxGeometry x="235" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YNEcawaOifFSc9qhL8P--27" value="结束" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="6D580EjlVo4oe9tn3Bij-1">
+          <mxGeometry x="247.5" y="990" width="95" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
