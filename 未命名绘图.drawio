@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-04T06:23:16.850Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="OWpjFo9ARzcDmbFM39u8" version="13.10.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-12-07T03:54:06.309Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="XBqxAZf4fQqf4hZhRGms" version="13.10.8" type="github" pages="2">
   <diagram name="入网进度查询" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="807" dy="1366" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -140,6 +140,9 @@
           <mxGeometry x="-0.2109" y="2" relative="1" as="geometry">
             <mxPoint x="34" y="-21" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="fMS4gSivEa_syARtIWrU-1" value="受影响的接口&lt;br&gt;1.个体/企业入网&lt;br&gt;2.小微入网&lt;br&gt;3.增值结算产品添加&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="156" y="605" width="116" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
