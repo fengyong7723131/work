@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-17T08:20:29.165Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="80i0-t0vJfoTMGqM86Zd" version="14.0.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-12-17T08:25:03.044Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="IMFgZtiHtYxXcEGUfx2v" version="14.0.4" type="github" pages="2">
   <diagram name="迁移平台商入驻商户存在产品" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1929" dy="1366" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -78,12 +78,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6OJ7Nqk0drTf7unUIeKR-15" value="根据营销产品码查询产品信息（queryProductByMarketing）" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="304.05" y="565" width="175" height="71" as="geometry" />
+          <mxGeometry x="305.44" y="618" width="175" height="71" as="geometry" />
         </mxCell>
         <mxCell id="6OJ7Nqk0drTf7unUIeKR-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6OJ7Nqk0drTf7unUIeKR-18" target="6OJ7Nqk0drTf7unUIeKR-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6OJ7Nqk0drTf7unUIeKR-18" value="校验结算账户信息" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="6OJ7Nqk0drTf7unUIeKR-18" value="若有结算产品则校验结算账户信息" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="770" y="501" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6OJ7Nqk0drTf7unUIeKR-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6OJ7Nqk0drTf7unUIeKR-24" target="6OJ7Nqk0drTf7unUIeKR-26">
@@ -113,10 +113,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6OJ7Nqk0drTf7unUIeKR-32" value="&lt;span&gt;校验入参产品与产品是否存在差集&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="327.36" y="686" width="127.5" height="71" as="geometry" />
+          <mxGeometry x="328.75" y="739" width="127.5" height="71" as="geometry" />
         </mxCell>
         <mxCell id="6OJ7Nqk0drTf7unUIeKR-33" value="结束" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="140.61" y="697.25" width="96" height="48.5" as="geometry" />
+          <mxGeometry x="142" y="750.25" width="96" height="48.5" as="geometry" />
         </mxCell>
         <mxCell id="6OJ7Nqk0drTf7unUIeKR-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6OJ7Nqk0drTf7unUIeKR-36" target="6OJ7Nqk0drTf7unUIeKR-40">
           <mxGeometry relative="1" as="geometry" />
@@ -130,28 +130,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6OJ7Nqk0drTf7unUIeKR-36" value="校验入参产品属性是否存在于产品属性信息中" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="327.61" y="798" width="127.5" height="71" as="geometry" />
+          <mxGeometry x="329" y="851" width="127.5" height="71" as="geometry" />
         </mxCell>
         <mxCell id="6OJ7Nqk0drTf7unUIeKR-40" value="结束" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="139.74" y="810.25" width="97.75" height="46.5" as="geometry" />
+          <mxGeometry x="141.13" y="863.25" width="97.75" height="46.5" as="geometry" />
         </mxCell>
         <mxCell id="6OJ7Nqk0drTf7unUIeKR-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6OJ7Nqk0drTf7unUIeKR-43" target="6OJ7Nqk0drTf7unUIeKR-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6OJ7Nqk0drTf7unUIeKR-43" value="查询该条件下允许入的产品集合" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="331.11" y="912" width="120" height="60" as="geometry" />
+          <mxGeometry x="332.5" y="965" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6OJ7Nqk0drTf7unUIeKR-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6OJ7Nqk0drTf7unUIeKR-45" target="6OJ7Nqk0drTf7unUIeKR-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6OJ7Nqk0drTf7unUIeKR-45" value="校验产品模型：&lt;br&gt;费率类型与费率校验&lt;br&gt;手续费承担方校验&lt;br&gt;小微不能包含支付/结算之外的产品&lt;br&gt;个体企业不能包含支付/账户/结算之外的产品）" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="259.61" y="264" width="263" height="122.5" as="geometry" />
+          <mxGeometry x="261" y="317" width="263" height="122.5" as="geometry" />
         </mxCell>
         <mxCell id="6OJ7Nqk0drTf7unUIeKR-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6OJ7Nqk0drTf7unUIeKR-47" target="6OJ7Nqk0drTf7unUIeKR-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6OJ7Nqk0drTf7unUIeKR-47" value="开收单产品必须开结算产品&lt;br&gt;结算产品只能开通一个" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="309.49" y="452" width="163.24" height="64" as="geometry" />
+          <mxGeometry x="310.88" y="505" width="163.24" height="64" as="geometry" />
         </mxCell>
         <mxCell id="6OJ7Nqk0drTf7unUIeKR-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6OJ7Nqk0drTf7unUIeKR-56" target="6OJ7Nqk0drTf7unUIeKR-62">
           <mxGeometry relative="1" as="geometry" />
@@ -167,10 +167,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6OJ7Nqk0drTf7unUIeKR-56" value="&lt;span&gt;入参支付产品与产品集合是否存在差集&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="332.74" y="1016" width="117.63" height="87.5" as="geometry" />
+          <mxGeometry x="334.13" y="1069" width="117.63" height="87.5" as="geometry" />
         </mxCell>
         <mxCell id="6OJ7Nqk0drTf7unUIeKR-62" value="结束" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="138.61" y="1035.25" width="98" height="49" as="geometry" />
+          <mxGeometry x="140" y="1088.25" width="98" height="49" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
