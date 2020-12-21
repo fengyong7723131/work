@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-12-21T08:45:05.824Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="01SeUyweQUH5XvNxo_Y7" version="14.0.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-12-21T09:14:00.354Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="c4EsEmqCZDy2fsiqmZIO" version="14.0.4" type="github" pages="2">
   <diagram name="迁移平台商入驻商户存在产品" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1149" dy="508" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="6OJ7Nqk0drTf7unUIeKR-68" value="" style="rounded=1;arcSize=10;dashed=1;strokeColor=#000000;fillColor=none;gradientColor=none;dashPattern=8 3 1 3;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="66" y="270" width="497" height="901" as="geometry" />
+          <mxGeometry x="129" y="278" width="497" height="901" as="geometry" />
         </mxCell>
         <mxCell id="KllGeDsj4ACoy9Njbnt4-6" value="平台商体系入驻商户入网" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="780" y="52" width="100" height="60" as="geometry" />
@@ -71,11 +71,11 @@
         <mxCell id="6OJ7Nqk0drTf7unUIeKR-13" value="入参产品信息是否为空" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="592" y="353" width="98" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="6OJ7Nqk0drTf7unUIeKR-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6OJ7Nqk0drTf7unUIeKR-15" target="6OJ7Nqk0drTf7unUIeKR-32">
+        <mxCell id="8TNEtncz5lM-L8IA0USA-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6OJ7Nqk0drTf7unUIeKR-15" target="6OJ7Nqk0drTf7unUIeKR-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6OJ7Nqk0drTf7unUIeKR-15" value="根据营销产品码查询产品信息（queryProductByMarketing）" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="305.44" y="618" width="175" height="71" as="geometry" />
+          <mxGeometry x="305.45" y="677" width="175" height="71" as="geometry" />
         </mxCell>
         <mxCell id="6OJ7Nqk0drTf7unUIeKR-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6OJ7Nqk0drTf7unUIeKR-18" target="6OJ7Nqk0drTf7unUIeKR-24">
           <mxGeometry relative="1" as="geometry" />
@@ -98,23 +98,6 @@
         <mxCell id="6OJ7Nqk0drTf7unUIeKR-28" value="结束" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="770" y="807" width="121" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="6OJ7Nqk0drTf7unUIeKR-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6OJ7Nqk0drTf7unUIeKR-32" target="6OJ7Nqk0drTf7unUIeKR-33">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="6OJ7Nqk0drTf7unUIeKR-35" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6OJ7Nqk0drTf7unUIeKR-34">
-          <mxGeometry x="-0.1224" y="-3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="6OJ7Nqk0drTf7unUIeKR-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6OJ7Nqk0drTf7unUIeKR-32" target="6OJ7Nqk0drTf7unUIeKR-36">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="6OJ7Nqk0drTf7unUIeKR-32" value="&lt;span&gt;校验入参产品与产品是否存在差集&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="328.75" y="739" width="127.5" height="71" as="geometry" />
-        </mxCell>
-        <mxCell id="6OJ7Nqk0drTf7unUIeKR-33" value="结束" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="142" y="750.25" width="96" height="48.5" as="geometry" />
-        </mxCell>
         <mxCell id="6OJ7Nqk0drTf7unUIeKR-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6OJ7Nqk0drTf7unUIeKR-36" target="6OJ7Nqk0drTf7unUIeKR-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -135,8 +118,8 @@
         <mxCell id="6OJ7Nqk0drTf7unUIeKR-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6OJ7Nqk0drTf7unUIeKR-43" target="6OJ7Nqk0drTf7unUIeKR-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6OJ7Nqk0drTf7unUIeKR-43" value="查询该条件下允许入的产品集合（返回00004时代表集合空）" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="332.5" y="965" width="120" height="60" as="geometry" />
+        <mxCell id="6OJ7Nqk0drTf7unUIeKR-43" value="查询该条件下允许入的产品集合（返回00004时代表集合空）&lt;br&gt;产品明细差集/产品大类包含" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="309.59999999999997" y="956" width="166.3" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6OJ7Nqk0drTf7unUIeKR-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6OJ7Nqk0drTf7unUIeKR-45" target="6OJ7Nqk0drTf7unUIeKR-47">
           <mxGeometry relative="1" as="geometry" />
@@ -182,9 +165,6 @@
         </mxCell>
         <mxCell id="8TNEtncz5lM-L8IA0USA-4" value="产品模型循环校验" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="94" y="370" width="106" height="18" as="geometry" />
-        </mxCell>
-        <mxCell id="8TNEtncz5lM-L8IA0USA-5" value="结算产品不受上级限制。" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="656" y="1065" width="50" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
