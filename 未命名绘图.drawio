@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-21T09:24:22.202Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="woJVCRX-9A7N5CfAJRPc" version="14.0.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-12-21T09:29:10.648Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="3cTtfR5mIexI31EE3tAx" version="14.0.4" type="github" pages="2">
   <diagram name="迁移平台商入驻商户存在产品" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1149" dy="508" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -71,11 +71,11 @@
         <mxCell id="6OJ7Nqk0drTf7unUIeKR-13" value="入参产品信息是否为空" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="592" y="353" width="98" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="8TNEtncz5lM-L8IA0USA-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6OJ7Nqk0drTf7unUIeKR-15" target="6OJ7Nqk0drTf7unUIeKR-36">
+        <mxCell id="8TNEtncz5lM-L8IA0USA-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6OJ7Nqk0drTf7unUIeKR-15" target="8TNEtncz5lM-L8IA0USA-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6OJ7Nqk0drTf7unUIeKR-15" value="根据营销产品码查询产品信息（queryProductByMarketing）" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="305.45" y="677" width="175" height="71" as="geometry" />
+          <mxGeometry x="305.45" y="620" width="175" height="71" as="geometry" />
         </mxCell>
         <mxCell id="6OJ7Nqk0drTf7unUIeKR-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6OJ7Nqk0drTf7unUIeKR-18" target="6OJ7Nqk0drTf7unUIeKR-24">
           <mxGeometry relative="1" as="geometry" />
@@ -168,6 +168,18 @@
         </mxCell>
         <mxCell id="8TNEtncz5lM-L8IA0USA-10" value="ying.wang-2 支付、付款类别的产品，取平台商已开通记录。结算、账户去营销产品的大类。" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="261" y="1262" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8TNEtncz5lM-L8IA0USA-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8TNEtncz5lM-L8IA0USA-13" target="6OJ7Nqk0drTf7unUIeKR-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8TNEtncz5lM-L8IA0USA-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8TNEtncz5lM-L8IA0USA-13" target="8TNEtncz5lM-L8IA0USA-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8TNEtncz5lM-L8IA0USA-13" value="校验入参产品是否存在于营销方案中" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="331.48" y="737" width="122.05" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8TNEtncz5lM-L8IA0USA-16" value="结束" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="130.455" y="732" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
