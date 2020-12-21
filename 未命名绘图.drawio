@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-21T09:41:02.114Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="M2yD-Z_gNQdr6lWLqz17" version="14.0.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-12-21T09:42:32.999Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="8xTbmQa1ryGtfu709GlR" version="14.0.4" type="github" pages="2">
   <diagram name="迁移平台商入驻商户存在产品" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1149" dy="508" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -141,16 +141,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6OJ7Nqk0drTf7unUIeKR-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6OJ7Nqk0drTf7unUIeKR-56" target="6OJ7Nqk0drTf7unUIeKR-18">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="391.5999999999999" y="1142.0323081956485" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="6OJ7Nqk0drTf7unUIeKR-67" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6OJ7Nqk0drTf7unUIeKR-66">
-          <mxGeometry x="-0.3534" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="8TNEtncz5lM-L8IA0USA-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6OJ7Nqk0drTf7unUIeKR-56" target="8TNEtncz5lM-L8IA0USA-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -182,7 +172,10 @@
           <mxGeometry x="331.48" y="737" width="122.05" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8TNEtncz5lM-L8IA0USA-16" value="结束" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="130.455" y="732" width="120" height="80" as="geometry" />
+          <mxGeometry x="151" y="747" width="98.46" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8TNEtncz5lM-L8IA0USA-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8TNEtncz5lM-L8IA0USA-18" target="6OJ7Nqk0drTf7unUIeKR-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8TNEtncz5lM-L8IA0USA-18" value="入参结算、账户产品是否包含于产品大类中" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="328.71999999999997" y="1203" width="128.06" height="78.75" as="geometry" />
