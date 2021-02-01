@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-01T07:03:12.437Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="FFniPgdofUIeHIscai4m" version="14.2.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-01T07:07:32.945Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="-g8caHRT6133ZYP-lXVf" version="14.2.9" type="github" pages="2">
   <diagram name="金融方案入网" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1351" dy="1589" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1351" dy="1139" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -60,7 +60,7 @@
         <mxCell id="wQ7-9UR18dWv28h3Pglg-18" value="创建商户" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="249" y="156" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wQ7-9UR18dWv28h3Pglg-31" value="金融解决方案入网" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" vertex="1" parent="1">
+        <mxCell id="wQ7-9UR18dWv28h3Pglg-31" value="金融解决方案入网" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;swimlaneLine=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="206" y="-244" width="1345" height="1009" as="geometry">
             <mxRectangle x="221" y="-153" width="53" height="20" as="alternateBounds" />
           </mxGeometry>
