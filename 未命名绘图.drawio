@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-01T06:32:05.136Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="kkNZTpSudo1IYf0ZBDDe" version="14.2.9" type="github" pages="2">
-  <diagram name="迁移平台商入驻商户存在产品" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="946" dy="1367" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2021-02-01T06:55:28.087Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="jReS2VX23wwf2sV8zoxs" version="14.2.9" type="github" pages="2">
+  <diagram name="金融方案入网" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
+    <mxGraphModel dx="1351" dy="1589" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,15 @@
         <mxCell id="wQ7-9UR18dWv28h3Pglg-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wQ7-9UR18dWv28h3Pglg-4" target="wQ7-9UR18dWv28h3Pglg-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wQ7-9UR18dWv28h3Pglg-4" value="参数校验" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wQ7-9UR18dWv28h3Pglg-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wQ7-9UR18dWv28h3Pglg-4" target="wQ7-9UR18dWv28h3Pglg-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="509" y="75" />
+              <mxPoint x="509" y="75" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wQ7-9UR18dWv28h3Pglg-4" value="产品渲染" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="249" y="45" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wQ7-9UR18dWv28h3Pglg-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wQ7-9UR18dWv28h3Pglg-6" target="wQ7-9UR18dWv28h3Pglg-10">
@@ -46,14 +54,48 @@
         <mxCell id="wQ7-9UR18dWv28h3Pglg-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wQ7-9UR18dWv28h3Pglg-18" target="wQ7-9UR18dWv28h3Pglg-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="wQ7-9UR18dWv28h3Pglg-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="wQ7-9UR18dWv28h3Pglg-18" target="wQ7-9UR18dWv28h3Pglg-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wQ7-9UR18dWv28h3Pglg-18" value="创建商户" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="249" y="156" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wQ7-9UR18dWv28h3Pglg-20" value="记录生态角色：&lt;br&gt;客户中心新增表TBL_MERCHANT_ECOLOGY_ROLE记录生态角色" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="369" y="138" width="50" height="100" as="geometry" />
+        <mxCell id="wQ7-9UR18dWv28h3Pglg-31" value="金融解决方案入网" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" vertex="1" parent="1">
+          <mxGeometry x="205" y="-245" width="1306" height="1006" as="geometry">
+            <mxRectangle x="221" y="-153" width="53" height="20" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="wQ7-9UR18dWv28h3Pglg-25" value="fmc流程魔方：数据库新增表tbl_merchant_basic_info新增字段ecology_role&lt;br&gt;流程魔方：创建商户服务节点新增字段ecologyRole&lt;br&gt;产品管理服务：产品渲染接口结算方向修改 支付账户-&amp;gt;资金账户" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="487" y="-93" width="50" height="100" as="geometry" />
+        <mxCell id="wQ7-9UR18dWv28h3Pglg-32" value="流程魔方" style="swimlane;html=1;startSize=20;" vertex="1" parent="wQ7-9UR18dWv28h3Pglg-31">
+          <mxGeometry y="20" width="347" height="986" as="geometry">
+            <mxRectangle y="20" width="24" height="902" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wQ7-9UR18dWv28h3Pglg-25" value="数据库表tbl_merchant_basic_info新增字段ecology_role&lt;br&gt;创建商户服务节点新增字段ecologyRole&lt;br&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="wQ7-9UR18dWv28h3Pglg-32">
+          <mxGeometry x="24" y="32" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wQ7-9UR18dWv28h3Pglg-33" value="产品管理" style="swimlane;html=1;startSize=20;" vertex="1" parent="wQ7-9UR18dWv28h3Pglg-31">
+          <mxGeometry x="347" y="20" width="301" height="986" as="geometry" />
+        </mxCell>
+        <mxCell id="wQ7-9UR18dWv28h3Pglg-35" value="组装产品模型&lt;br&gt;金融营销产品结算方向：银行账户/资金账户" style="whiteSpace=wrap;html=1;" vertex="1" parent="wQ7-9UR18dWv28h3Pglg-33">
+          <mxGeometry x="90.5" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wQ7-9UR18dWv28h3Pglg-34" value="业务管理系统" style="swimlane;html=1;startSize=20;" vertex="1" parent="wQ7-9UR18dWv28h3Pglg-31">
+          <mxGeometry x="648" y="20" width="329" height="986" as="geometry" />
+        </mxCell>
+        <mxCell id="wQ7-9UR18dWv28h3Pglg-40" value="创建商户（新增字段：生态角色）" style="whiteSpace=wrap;html=1;" vertex="1" parent="wQ7-9UR18dWv28h3Pglg-34">
+          <mxGeometry x="114" y="381" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wQ7-9UR18dWv28h3Pglg-43" value="客户中心" style="swimlane;html=1;startSize=20;" vertex="1" parent="wQ7-9UR18dWv28h3Pglg-31">
+          <mxGeometry x="977" y="20" width="329" height="986" as="geometry" />
+        </mxCell>
+        <mxCell id="wQ7-9UR18dWv28h3Pglg-44" value="&lt;br&gt;客户中心新增表&lt;br&gt;TBL_MERCHANT_ECOLOGY_ROLE记录生态角色" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="wQ7-9UR18dWv28h3Pglg-43">
+          <mxGeometry x="27" y="205" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wQ7-9UR18dWv28h3Pglg-47" value="创建商户（新增字段：业务戒色）&lt;br&gt;记录生态角色" style="whiteSpace=wrap;html=1;" vertex="1" parent="wQ7-9UR18dWv28h3Pglg-43">
+          <mxGeometry x="96" y="381" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wQ7-9UR18dWv28h3Pglg-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wQ7-9UR18dWv28h3Pglg-31" source="wQ7-9UR18dWv28h3Pglg-40" target="wQ7-9UR18dWv28h3Pglg-47">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
