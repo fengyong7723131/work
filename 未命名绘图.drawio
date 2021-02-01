@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-01T07:00:04.780Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="DM5M70B8dlDvrXQdncky" version="14.2.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-01T07:03:12.437Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="FFniPgdofUIeHIscai4m" version="14.2.9" type="github" pages="2">
   <diagram name="金融方案入网" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1351" dy="1589" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -91,7 +91,7 @@
         <mxCell id="wQ7-9UR18dWv28h3Pglg-49" value="创建协议" style="whiteSpace=wrap;html=1;" vertex="1" parent="wQ7-9UR18dWv28h3Pglg-34">
           <mxGeometry x="77" y="612" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wQ7-9UR18dWv28h3Pglg-15" value="金融方案&lt;br&gt;支付账户-&amp;gt;资金账户" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="wQ7-9UR18dWv28h3Pglg-34">
+        <mxCell id="wQ7-9UR18dWv28h3Pglg-15" value="金融方案&lt;br&gt;支付账户-&amp;gt;资金账户&lt;br&gt;DEPOSIT_ACCOUNT" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="wQ7-9UR18dWv28h3Pglg-34">
           <mxGeometry x="191" y="701" width="50" height="100" as="geometry" />
         </mxCell>
         <mxCell id="wQ7-9UR18dWv28h3Pglg-51" value="开通产品" style="whiteSpace=wrap;html=1;" vertex="1" parent="wQ7-9UR18dWv28h3Pglg-34">
