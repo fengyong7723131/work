@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-01T07:07:32.945Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="-g8caHRT6133ZYP-lXVf" version="14.2.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-01T07:09:08.951Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="3SZQ2Q6VXCfEdNqAdny4" version="14.2.9" type="github" pages="2">
   <diagram name="金融方案入网" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1351" dy="1139" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1113" dy="1008" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -103,7 +103,7 @@
         <mxCell id="wQ7-9UR18dWv28h3Pglg-44" value="&lt;br&gt;客户中心新增表&lt;br&gt;TBL_MERCHANT_ECOLOGY_ROLE记录生态角色" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="wQ7-9UR18dWv28h3Pglg-43">
           <mxGeometry x="27" y="205" width="50" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="wQ7-9UR18dWv28h3Pglg-47" value="创建商户（新增字段：业务戒色）&lt;br&gt;记录生态角色" style="whiteSpace=wrap;html=1;" vertex="1" parent="wQ7-9UR18dWv28h3Pglg-43">
+        <mxCell id="wQ7-9UR18dWv28h3Pglg-47" value="创建商户（新增字段：业务角色）&lt;br&gt;记录生态角色" style="whiteSpace=wrap;html=1;" vertex="1" parent="wQ7-9UR18dWv28h3Pglg-43">
           <mxGeometry x="96" y="381" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wQ7-9UR18dWv28h3Pglg-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wQ7-9UR18dWv28h3Pglg-31" source="wQ7-9UR18dWv28h3Pglg-40" target="wQ7-9UR18dWv28h3Pglg-47">
@@ -113,7 +113,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xMQZjuHvh5yQaUtxyoXN" name="协议&amp;电子签章">
-    <mxGraphModel dx="1069" dy="516" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="517" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="6D580EjlVo4oe9tn3Bij-0" />
         <mxCell id="6D580EjlVo4oe9tn3Bij-1" parent="6D580EjlVo4oe9tn3Bij-0" />
