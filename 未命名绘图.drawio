@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T09:04:33.563Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="cKUBAGHBtcnXbMwoJme2" version="14.4.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-25T09:25:28.870Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="MVEyD8saRflQtlpjup0q" version="14.4.3" type="github" pages="2">
   <diagram name="工作日/非工作日结算产品" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1687" dy="850" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="907" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -75,6 +75,11 @@
         <mxCell id="_HHzULaPOkoazhVG4UxR-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_HHzULaPOkoazhVG4UxR-24" target="_HHzULaPOkoazhVG4UxR-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="_HHzULaPOkoazhVG4UxR-53" value="等于2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_HHzULaPOkoazhVG4UxR-47">
+          <mxGeometry x="-0.2283" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="_HHzULaPOkoazhVG4UxR-24" value="交集数量" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-53.5" y="41.75" width="144" height="84" as="geometry" />
         </mxCell>
@@ -121,10 +126,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_HHzULaPOkoazhVG4UxR-46" value="交集中是否包含D1_WORKDAY、D1_HOLIDAY或包含D1_MANUAL..." style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-69.87" y="153" width="176.75" height="111" as="geometry" />
+          <mxGeometry x="-69.88000000000001" y="186" width="176.75" height="111" as="geometry" />
         </mxCell>
         <mxCell id="_HHzULaPOkoazhVG4UxR-50" value="结束&lt;br&gt;提示：开通***必须开通***" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="182.495" y="168.5" width="120" height="80" as="geometry" />
+          <mxGeometry x="186.005" y="201.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_HHzULaPOkoazhVG4UxR-54" value="业务管理前置系统" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="-141" y="-268" width="50" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
