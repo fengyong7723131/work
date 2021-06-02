@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-02T11:24:31.215Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="1tRmLPd9swOcWB1NXuCK" version="14.7.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-02T11:25:00.322Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="lEfWjJN3stKfFCkWc4A4" version="14.7.3" type="github" pages="2">
   <diagram name="工作日/非工作日结算产品" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="4626" dy="1137" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -878,9 +878,6 @@
           <mxGeometry x="0.126" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="8Uxi-zQT37v6RsOlaNyQ-610" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="-2280" y="980" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="8Uxi-zQT37v6RsOlaNyQ-611" value="更新卡信息" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1734" y="802" width="80" height="80" as="geometry" />
